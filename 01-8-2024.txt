@@ -1,0 +1,97 @@
+Lang. 
+
+
+1)HL  : USER  : ENG 
+2)LL  : Computer : Binary 01010
+3)ML  : HL + LL  
+
+HL ---->  Translator ====> Computer {LL} --> Output -> result 
+
+Translator -> 
+1) compiler : whole at once 
+2) interpreter : line by line 
+
+
+--------------------------------------------------------------
+
+python : HL , interpreted lang 
+ 
+
+---------------------------------------------------------------
+
+Algo : set of instructions that design to achieve some goal 
+       set of instructions that accomplish a task 
+	
+
+FlowChart : type of a diagram that represents a process / workflow for a task 
+
+---------------------------------------------------------------
+
+Algo for Addition of Two Numbers:- 
+
+
+
+1 : num1 <- USERINPUT 
+2 : num2 <- USERINPUT  
+3 : ans <- num1 + num2 
+4 : OUTPUT ans 
+
+
+
+Algo for square of a number 
+
+1: num <- USERINPUT 
+2: ans <- num * num   
+3: OUTPUT ans 
+
+
+
+Algo For subtraction of three numbers 
+
+
+1 : num1 <- input 
+2 : num2 <- input 
+3 : num3 <- input 
+4 : answer <- num1 - num2 - num3 
+5 : OUTPUT answer
+
+
+
+input 
+	process 
+		output 
+
+-------------------------------------------------------------------------------------------
+
+Algo for addition of 2 numbers : 
+
+1: a <- userinput 
+2: b <- userinput
+3: add <- a+b 
+4: OUTOUT add 
+
+-------------------------------------------------------------------------------------------
+
+Friday: 12.30PM IST 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
