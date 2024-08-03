@@ -1,0 +1,114 @@
+
+
+create python program : addition of two numbers 
+
+algo for addition of two numbers 
+
+step1  : n1 <- input
+step2  : n2 <- input 
+step3  : ans = n1 + n2 
+step4  : output ans 
+
+numbers -> whole number , fraction digit 
+
+whole number ->int 
+floating real number ->  float 
+
+
+                        number 
+        whole number            real number[decimal fraction digit]        
+
+        whole number ->  int 
+        real numer   ->  float 
+
+
+variable -> variable is a data name which is used to store value 
+data type => indicator that indicates what type of data you will use in variable 
+
+
+
+
+operator -> + , - , * , / 
+
+n1  = int(input("Enter number 1"))
+n2  = int(input("Enter number 2"))
+
+ans = n1 + n2 
+print("addition = ",ans)
+
+ans = n1 - n2
+print("subtraction = ",ans)
+
+ans = n1 * n2 
+print("multiplication = ",ans)
+
+ans = n1 / n2 
+print("div = ",ans)
+
+----------------------------------------------------------
+
+read salary from the user and calculate tax on salary 
+
+tax = 10% 
+
+salary = 25000 
+tax = 2500 
+
+salary = 50000
+tax = 5000 
+
+salary = 100000
+tax = 10000 
+
+salary  = int(input("Enter the Salary"))
+tax = salary * 0.10 
+print("tax = ",tax)
+
+-------------------------------------------------------------
+take marks of three subject and find out the percentage 
+
+input 
+    process 
+        output 
+
+
+sub1 = int(input("Enter marks for subject 1"))
+sub2 = int(input("Enter marks for subject 2"))
+sub3 = int(input("Enter marks for subject 3"))
+perc = (sub1+sub2+sub3) / 3
+print("Percentage = ",perc)
+
+
+how many variables we have used in this program?
+4
+list out :
+    sub1 
+    sub2 
+    sub3
+    perc 
+
+
+what is the data type of sub1 ? 
+int 
+
+what is the data type of sub2?
+int 
+
+what is the data type of sub3 ? 
+int 
+
+what is the data type of perc? 
+float 
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
