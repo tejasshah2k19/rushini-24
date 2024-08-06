@@ -1,0 +1,109 @@
+operator 
+
+
+1)Arithmetic operator 
+    +   -   /   *    % ->modulo  
+
+modulo operator is used to get the remainder 
+
+2)relation operator 
+    > : greater than  
+    < : less than 
+    >= : greater or eqauls 
+    <= : less or eqauls 
+    == : eqauls 
+    != : not equal 
+
+n1=25
+n2=50
+
+n1 > n2 => false 
+
+print(n1>n2) 
+print(n1<n2)
+
+
+
+# hastag => comment => it will not execute 
+    documentation - information 
+
+
+n1=15
+n2=30
+
+print(n1>n2) #False  
+print(n1<n2) #True
+
+print(n1==n2) #False 
+print(n1!=n2) #True  
+
+n1=10
+n2=10
+print(n1>n2) # False   
+print(n1<n2) # False 
+
+
+
+3) Logical operator 
+
+and -> compulsory   { if all True then ture otherwise false }
+or  -> either or    { if any 1 is ture then ture else false }
+not -> negative   flip => True->False False->True 
+
+
+1)student percentage 80+ or student maths+eng 90+ then eligible for admission 
+2)student must get 90+ in maths and sci+guj must be 80+ then eligible for admission
+    {maths:89,sci+guj:95} => False 
+     False , Treu =>  False 
+
+
+example: 
+
+n1=15
+n2=30
+ 
+print(n1 > n2 or n1 == n2 ) #False or False => False  
+print(n1 < n2 and n1 == n2 ) # True and False => False 
+
+print(n1 < n2 and n1 != n2 ) # True and True => True 
+
+print(n1 > n2 or n1 != n2 ) # False or True =>  True 
+
+example:
+a = 10
+b = 20 
+
+print (not a > b)
+
+example 
+
+print(10/3)#3.333333 -> Q 
+
+print(10%3) #modulo operator -> is used to find out Remainder -> 
+
+
+print(15%2) # 1
+print(15%3) # 0 
+print(25%4) # 1 
+print(18%9) # 0
+print(35%4) # 3
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
