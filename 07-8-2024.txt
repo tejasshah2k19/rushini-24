@@ -1,0 +1,50 @@
+conditional statement :- 
+
+if
+if...else 
+if...elif
+
+
+if condition:
+    logic 
+
+
+
+
+age=int(input("Enter Age : "))
+
+if age >= 18 : 
+    print("Eligible For Vote")
+
+
+-----------------------------------
+
+
+if block execute -> condition True 
+else block execute -> condition False 
+
+
+age=int(input("Enter Age : "))
+
+if age >= 18 : 
+    print("Eligible For Vote")
+else:
+    print("Not Eligible For Vote")
+
+-----------------------------------------
+
+
+num=10 
+positive 
+
+num=-10
+negative 
+
+-------------------------------------------
+
+
+
+
+
+
+
