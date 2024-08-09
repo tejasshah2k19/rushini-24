@@ -1,0 +1,89 @@
+Loop -> iterate -> 
+
+
+when we want to repeat some code again and again 
+
+
+if i want to print my name 5 times 
+
+print("royal");
+print("royal");
+print("royal");
+print("royal");
+print("royal");
+
+
+for loop -> 
+
+syntax: 
+for variable in range: 
+    logic 
+
+
+code:
+for counter in [1,2,3,4,5]:
+    print("royal")
+
+
+
+print country name 7 times : 
+
+for counter in [1,2,3,4,5,6,7]:
+    print("INDIA")
+
+
+--------------------------------------------
+1) Print your country name 5 times 
+
+
+[1,2,3,4,5,6,7,8] => range(1,9)
+
+range(1,30)
+    start : 1 
+    end   : 30 {29} 
+
+
+range(1,15):
+    start:1 
+    end:14 
+
+
+for counter in range(1,6):
+    print("Royal")
+
+
+name => 13 times -> using range function 
+
+
+print 1 to 10 :
+for counter in range(1,11):
+    print(counter)
+
+
+print 10 to 20 using for loop : 
+
+
+for counter in range(10,21):
+    print(counter)
+
+
+
+print 5 to 15 using loop: 
+
+----------------------------------------------------------------------
+take age from user and check user is good for vaccine or not , age 50+ is good for vaccination 
+-------------------------------------------------------------------------
+
+print all the even numbers from 1 to 50 -> loop + if 
+
+
+for counter in range(1,51):
+    if counter%2 == 0:
+       print(counter)
+
+------------------------------------------------------------------------------------
+
+print all the numbers from 1 to 20 which are odd 
+
+-----------------------------------------------------------
+
