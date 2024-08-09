@@ -1,0 +1,37 @@
+1) take two numbers from user and find out which is max 
+
+2) take a number from user and print number is negative or positive 
+
+3) take age from user and print user is eligible for ride in game zone or not , 
+   for eligibility your age must be greater than 25
+
+4) take 2 number from user and find out strong number,
+   strong number is the number which is greater than or equals to 100 
+
+5) take one number from user and print number is odd or even -> 
+        if number is divide by 2 then even 
+    
+    # -> is a comment 
+        -> this will not execute in program 
+        -> this provides information , documentation 
+
+
+
+=  -> assignment operator 
+
+x=10
+
+
+== -> equals - compare 
+x == 10  : True  
+
+
+#ODD EVEN PROGRAM 
+
+no  = int(input("Enter number"))
+
+if no%2 == 0:
+    print("EVEN")
+
+if no%2 != 0:
+    print("ODD")
