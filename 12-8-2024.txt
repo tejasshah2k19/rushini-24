@@ -12,7 +12,20 @@ algo :
 flowchart : graphics 
 
 
----------------------------------------
+------------------------------------------------------------------
+
+
+1) take two numbers from user and perform addition of it. 
+
+2) take marks of maths , sci and english , calculate the percentage of given marks. 
+
+3) read salary from user and print how much tax user need to pay. tax is fix 15% for every user. 
+
+4) take 5 numbers from user and print average of it 
+
+
+-------------------------------------------------------------------
+
 
 age=int(input("Enter Age : "))
 
