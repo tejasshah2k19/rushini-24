@@ -1,0 +1,40 @@
+write an alog for num POSITIVE or NEGATIVE 
+
+algo : 
+
+1: START  
+2: INPUT no 
+3: no > 0 then OUTPUT POSITIVE 
+4: no < 0 then OUTPUT NEGATIVE 
+5: END 
+
+
+flowchart : graphics 
+
+
+---------------------------------------
+
+age=int(input("Enter Age : "))
+
+if age >= 18 : 
+    print("Eligible For Vote")
+else:
+    print("Not Eligible For Vote")
+
+
+----------------------------------------
+1) take two numbers from user and find out which is max 
+
+2) take a number from user and print number is negative or positive 
+
+3) take age from user and print user is eligible for ride in game zone or not , 
+   for eligibility your age must be greater than 25
+
+4) take 2 number from user and find out strong number,
+   strong number is the number which is greater than or equals to 100 
+
+5) take one number from user and print number is odd or even -> 
+        if number is divide by 2 then even 
+    
+------------------------------------------------------
+
