@@ -1,0 +1,40 @@
+program->python
+
+
+algorithm -> 
+
+flowchart -> 
+
+1) addition of two numbers
+ 
+
+add = n1 + n2 -> rectan para 
+
+
+first num  ? 
+ 
+where is your first number ? in n1
+where is your second number ? n2 
+where is your ans ? addition ? add 
+
+output -> ans? what is ans ? do we have ans ? in flowchart ? 
+
+-------------------------------------------------------------------------------------------------------
+
+2) take salary from user and find out tax - tax is 20% of salary 
+    you need print tax at the end 
+
+
+start 
+
+input salary 
+
+process  tax = 20% of salary {salary * 0.20 }
+
+output tax 
+
+end 
+
+3) Take 3 numbers from user and find out average of it. 
+     
+4) take number from user and print its negative or positive. 
