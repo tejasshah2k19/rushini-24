@@ -1,0 +1,14 @@
+1)print 1 to 5 using loop 
+2)print your name 10 times 
+3)print all the odd numbers between 1 to 10 
+4)print all the numbers which can divide by 5 between 1 to 50 
+
+
+5)take start and end from user and print all the numbers between it. 
+    start  = int(input("Enter start nunber"))
+    end = int(input("Enter end number"))
+    for counter in range(start,end):
+        print(counter)
+
+ 6) 
+        
