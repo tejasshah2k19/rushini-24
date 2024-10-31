@@ -1,0 +1,121 @@
+perform the addition of two numbers 
+how many variable we need ? 3  n1 n2 ans 
+
+
+take 5 numbers from user and perform addition
+how many variable we need ? n1 n2 n3 n4 n5 ans 
+
+
+take 50 numbers from user and perform addition 
+how many variable we need ? 51 : n1 n2 .... n50 
+
+
+data type -> list -> this will store n numbers of items under single name 
+
+
+a = 10 
+print(a)
+
+a=20  # 10 will over write -> 10->20 { 10 is lost }
+print(a) #20 
+
+we can store a single value in a variable 
+
+
+scenario : can we store multiple values in 1 variable ? 
+yes : using list 
+
+
+list data type will store multiple values in a single variable ! 
+
+------------------------------------------------------------------------------------------
+
+print your name 20 times !!
+we need to use loop , for loop 
+
+for counter in range(1,21):
+    print("Royal")
+
+
+
+multiplication table of 5 ->
+5   *   1   =   5
+5   *   2   =   10
+5   *   3   =   15
+5   *   4   =   20
+5   *   5   =   25
+
+
+
+5   1   5   
+5   2   10
+5   3   15
+5   4   20
+5   5   25 
+
+how many times loop will execute? 5 times 
+
+for counter in range(1,5+1):
+    print(counter)
+
+
+
+
+
+
+now modify with: 
+
+
+5   1   5   
+5   2   10
+5   3   15
+5   4   20
+5   5   25 
+5   6   30
+5   7   35
+5   8   40
+5   9   45  
+5   10  50  
+
+
+user input -> 
+7   
+7   1   7
+7   2   14
+
+
+user input -> 
+10
+10  1   10
+10  2   20
+10  3   30
+
+
+---------------------------------------------------------------------
+run: 
+enter number 
+10
+
+10  1   10
+10  2   20
+10  3   30
+
+
+
+run2:
+enter number 
+25
+25  1   25
+25  2   50
+25  3   75
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+

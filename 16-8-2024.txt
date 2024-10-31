@@ -10,5 +10,9 @@
     for counter in range(start,end):
         print(counter)
 
- 6) 
-        
+6) now print all the even numbers between start and end 
+
+7) now print all the numbers which can divide by 5 and 2 between start and end 
+
+
+8) Now print all the numbers which can dividie by 3 Or can divide by 7 

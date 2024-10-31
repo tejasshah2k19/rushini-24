@@ -1,0 +1,101 @@
+Database : collection of data 
+
+DatabaseManagementsSystem  : DBMS : s/w : database manage 
+
+SQL : structure query language 
+
+
+student : new -> record add 
+student : change -> record modification 
+student : remove -> record delete 
+student : list -> record access / read 
+
+
+data => store => table 
+
+table : student 
+column : field  : studentId 
+row :  record 
+
+constraints : rule ==> 
+
+studentId  => unique , not null ,  
+firstName => not null 
+lastName => not null 
+address => not null 
+std => not null 
+div => not null 
+contactNum =>  unique 
+city => not null 
+
+SQL : data type : 
+column -> data type -> 
+
+studentId  =>  integer 
+firstName =>  varchar(20){string}
+lastName =>  varchar(20)  
+address =>  varchar(100)
+std =>  integer    
+div =>  char(1)  
+contactNum =>  varchar(20) 
+city => varchar(25) 
+
+----------------------------------------------------------------------------------
+
+employee : every employee has unique number , we will store their personal information 
+    like firstname lastname email and address, they will get salary and we will calculate tax on salary. 
+
+employee 
+
+employeeID - unique, not null, integer,
+employeeID : primary Key , integer
+
+First name - not null, varchar
+Last name - not null, varchar
+Email - unique, varchar 
+Address - not null, varchar 
+Salary - not null, integer
+Tax  - not null, integer
+
+-------------------------------------------------------------------------------------
+
+
+primary key --> is  column(s) in a table that uniquely indentifies record. 
+primary key is unique and not null 
+
+
+foreignKey --> is  column(s) in a table that references a primary key in another table 
+-------------------------------------------------------------------------------------
+
+
+student
+
+studentId           firstName       lastName        city        address     contactNum
+primary key 
+1                   sachin          patel                                   1111
+2                   jigar           patel                                   2222
+3                   bhaumik         patel                                   3333    
+
+
+parents 
+
+parentId        firstName       lastName    officeAddress       contactNum      studentId
+primary key                                                                     foreignKey 
+11              raj             patel                           444             2
+12              rahul           patel                           555             1
+13              ram             patel                           666             3
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
