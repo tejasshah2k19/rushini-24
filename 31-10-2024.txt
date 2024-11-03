@@ -88,14 +88,87 @@ primary key                                                                     
 
 ---------------------------------------------------------------------------------------------------------
 
+database -> table create 
+            record insert 
+            record remove 
+            record modify 
+            record read
+
+   Query ->           
+
+    create query -> table create -> 
+
+                create table employee(
+                        employeeId int,
+                        firstName varchar2(20),
+                        lastName varchar2(20),
+                        address  varchar2(100)
+                ); 
+
+                varchar2(20) -> max character 20 can be store in that field 
+
+
+
+create a table for product with unique id name and price 
+
+        create table product (
+            productId int unique, 
+            productName varchar2(30),
+            price int not null 
+        )
+
+create a table for book information we have ISBNnum , price ,category , author 
+
+
+create table book (
+    ISBNnum integer unique,
+    price integer not null, 
+    category varchar2(20),
+    author varchar2(30) not null 
+)
+
+
+create a table for laptop information , 
+    we have laptop id , name , ramSize , processor , price 
+
+
+
+create table laptop_information(
+    laptopId integer unique not null,
+    laptopName varchar2(20) not null,
+    ramSize integer,
+    processor varchar2(20) not null,
+    price integer not null
+)
+
+
+create table XXXX (
+    column data type rule,
+    column data type rule 
+)
+
+create a table to store information of a mobile data 
+    we have IMEI , mobile name , price , brand and displaySize 
+
+
+Create table mobiledatainfo(
+IMEI  integer not null unique,
+mobilename varchar2(20) not null, 
+Displaysize integer not null,
+Brand varchar2(20) not null,
+Price integer not null
+)
 
 
 
 
+create table to store information of the course,
+    we have unique course code , course name , duration , course fees ..
 
+    Create table storeinfocourse(
+Uniquecoursecode  integer not null unique,
+coursename varchar2(20) not null,
+Duration integer not null,
+Coursefees integer not null)
 
-
-
-
-
-
+----------------------------------------------------------------------------------------------
