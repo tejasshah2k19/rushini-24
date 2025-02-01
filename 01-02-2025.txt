@@ -2,4 +2,19 @@
     num = 142 
     ans = 7
 
-2) 
+2) take number from user and print multiplication table of it 
+
+3) we have below list 
+        list = [13,23,5,6,77,43,46,7]
+        use bubble sort to sort the list and then print it. 
+
+4) we have below list 
+        list = [13,23,5,6,77,43,46,7]
+        print all the odd numbers from the list 
+
+        
+5) we have below list 
+        list = [13,23,5,6,77,43,46,7]
+        print all the  numbers which can divide by 5 or 7 from the list 
+
+6) 
