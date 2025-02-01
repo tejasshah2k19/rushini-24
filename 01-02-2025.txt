@@ -1,0 +1,5 @@
+1) sumOfDigit 
+    num = 142 
+    ans = 7
+
+2) 
